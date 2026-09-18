@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Low cortisol... </title>
+</head>
+<body>
+	<script>alert('Mix the music');</script>
+	Low cortisol...
+	<img src="cat.jpg" id="cat1" width="200">
+	<img src="cat.jpg" id="cat2" width="200">
+	<img src="cat.jpg" id="cat3" width="200">
+	<img src="cat.jpg" id="cat4" width="200">
+	<img src="cat.jpg" id="cat5" width="200">
+	<img src="cat.jpg" id="cat6" width="200">
+
+	<audio src="forest.mp3" id="forests" loop></audio>
+	<audio src="cosmos.mp3" id="cosmoss" loop></audio>
+	<audio src="budda.mp3" id="buddas" volume="0.5" loop></audio>
+	<audio src="alien.mp3" id="aliens" loop></audio>
+	<audio src="techno.mp3" id="technos" loop></audio>
+	<audio src="mushroom.mp3" id="mushrooms" loop></audio>
+	
+<script>
+	//1. forest
+	let forest = "no"; 
+
+	cat1.onclick = function(){
+//지금 before인지 after인지 판단, before면 after, after면 before로
+	if(forest == "no"){cat1.src="forest.jpg";
+	forest="yes";
+	forests.play();
+	}else if(forest == "yes"){cat1.src = "cat.jpg";
+	forest="no";forests.pause();}
+	cat1.style.width = "200px";
+	};
+
+		//2. cosmos
+	let cosmos = "no"; 
+
+	cat2.onclick = function(){
+//지금 before인지 after인지 판단, before면 after, after면 before로
+	if(cosmos == "no"){cat2.src="cosmos.jpg";
+	cosmos="yes";
+	cosmoss.play();
+	}else if(cosmos == "yes"){cat2.src = "cat.jpg";
+	cosmos="no";cosmoss.pause();}
+	cat2.style.width = "200px";
+	};
+
+		//3. budda
+	let budda = "no"; 
+
+	cat3.onclick = function(){
+//지금 before인지 after인지 판단, before면 after, after면 before로
+	if(budda == "no"){cat3.src="budda.jpg";
+	budda="yes";
+	buddas.play();
+	}else if(budda == "yes"){cat3.src = "cat.jpg";
+	budda="no";buddas.pause();}
+	cat3.style.width = "200px";
+	};
+
+		//4. alien
+	let alien = "no"; 
+
+	cat4.onclick = function(){
+//지금 before인지 after인지 판단, before면 after, after면 before로
+	if(alien == "no"){cat4.src="alien.jpg";
+	alien="yes";
+	aliens.play();
+	}else if(alien == "yes"){cat4.src = "cat.jpg";
+	alien="no";aliens.pause();}
+	cat4.style.width = "200px";
+	};
+
+		//5. techno
+	let techno = "no"; 
+
+	cat5.onclick = function(){
+//지금 before인지 after인지 판단, before면 after, after면 before로
+	if(techno == "no"){cat5.src="techno.jpg";
+	techno="yes";
+	technos.play();
+	}else if(techno == "yes"){cat5.src = "cat.jpg";
+	techno="no";technos.pause();}
+	cat5.style.width = "200px";
+	};
+
+		//6. mushroom
+	let mushroom = "no"; 
+
+	cat6.onclick = function(){
+//지금 before인지 after인지 판단, before면 after, after면 before로
+	if(mushroom == "no"){cat6.src="mushroom.jpg";
+	mushroom="yes";
+	mushrooms.play();
+	}else if(mushroom == "yes"){cat6.src = "cat.jpg";
+	mushroom="no";mushrooms.pause();}
+	cat6.style.width = "200px";
+	};
+
+
+</script>
+
+
+</body>
+</html>
